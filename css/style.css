@@ -1,0 +1,90 @@
+/*
+Template Name: Aytor
+Version: 1.0.0
+Author: Aytor
+
+
+Table of Content
+===========================
+   ********Home-Page*********
+   1) Navigation Section
+   2) Banner Section
+   3) Feature Section.....
+*/
+
+/* Common Css Start */
+h1,h2,h3,h4,h5,h6,
+p,
+small,span,
+ol,ul{
+   margin: 0;
+   padding: 0;
+}
+ol,ul{
+   list-style-type: none;
+}
+a{
+   text-decoration: none;
+}
+:root {
+   --body-font-one: 'Josefin Sans', sans-serif;
+   --body-font-two: 'Roboto', sans-serif;
+   --text-color: #11161E;
+   --common-color: #fff;
+   --black-color: #000;
+   --primary-3D-color: #151A32;
+   --primary-1st-color: #FF6F61;
+   --primary-2nd-color: #FF5645;
+   --paragraph-color: #444;
+   --background-color-one: #F1F1F1;
+   --background-color-two: #F1F3F4;
+}
+
+body{
+   font-family: var(--body-font-one);
+   font-weight: 400;
+}
+
+
+/* //Common Css End */
+
+#navbarNavDropdown ul li a{
+    font-weight: 400;
+   color: #11161E;
+   font-size: 16px;
+   padding: 0 20px;
+   transition: 0.5s;
+}
+#navbarNavDropdown ul li:hover > a,
+.navbar .nav_icon .btn:hover i{
+   color: #FF5645;
+}
+#navbarNavDropdown ul li ul:hover li a{
+   background-color: rgb(215, 213, 213);
+}
+#navbarNavDropdown ul li ul li:hover a{
+   background-color: #ff8f85;
+  color: #11161E;
+
+}
+#navbarNavDropdown .nav_icon .btn{
+   font-weight: 400;
+   color: #11161E;
+   font-size: 16px;
+}
+.navbar .nav_icon .btn{
+   background: none;
+}
+.navbar .nav_icon i{
+   position: relative;
+}
+.navbar .nav_icon i span{
+   position: absolute;
+   background: #FF5645;
+   color: #E5E5E5;
+   border: 2px solid #FF5645;
+   border-radius: 50%;
+   left: 50%;
+   font-size: 12px;
+}
+
